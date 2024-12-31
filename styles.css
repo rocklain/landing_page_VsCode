@@ -1,0 +1,126 @@
+/* 基本設定 */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #dde1f4;
+  color: #0c0a29;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.5em 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #444;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  color: #666;
+}
+
+/* ワークセクション */
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.carousel-control {
+  color: #333; /* ボタンの色 */
+  background: none; /* 背景を削除 */
+  box-shadow: none; /* 影を削除 */
+  opacity: 0.7; /* 半透明にして目立ちすぎないように調整 */
+}
+
+.carousel-control:hover {
+  opacity: 1; /* ホバー時に透明度を元に戻す */
+}
+
+
+.carousel-indicators li {
+  background-color: #333;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dl dt {
+  font-weight: bold;
+  color: #444;
+  margin-top: 1em;
+}
+
+dl dd {
+  margin: 0 0 1em 0;
+  color: #555;
+}
+
+/* ボタンの装飾 */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* About Me セクション */
+.text-center {
+  text-align: center;
+}
+
+.text-center h2 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.text-center h4 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+

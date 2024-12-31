@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryo Ao`s portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="text-center logo">Ryo Ao`s portfolio</div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <h2 class="text-center">Works</h2>     
+
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+
+              <h4>タスク管理アプリケーション</h4>
+              <div>2024.12~ webアプリケーション</div>
+              <br>
+              <div id="micro_carousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                <ol class="carousel-indicators">
+                  <li class="active" data-target="#micro_carousel" data-slide-to="0"></li>
+                  <li data-target="#micro_carousel" data-slide-to="1"></li>
+                  <li data-target="#micro_carousel" data-slide-to="2"></li>
+                  <li data-target="#micro_carousel" data-slide-to="3"></li>
+                  <li data-target="#micro_carousel" data-slide-to="4"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="images/micro_top.png" alt="トップページ" class="img">
+                  </div>
+                  <div class="item">
+                    <img src="images/micro_user.png" alt="ユーザページ" class="img">
+                  </div>
+                </div>
+
+                <a class="left carousel-control" href="#micro_carousel" data-slide="prev" role="button">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">前へ</span>
+                </a>
+                <a class="right carousel-control" href="#micro_carousel" data-slide="next" role="button">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">次へ</span>
+                </a>
+              </div>
+              
+              <div class="row">
+                <dl class="col-sm-3">
+                  <br>
+                  <dt>アプリ名</dt>
+                  <dd>タスク管理アプリケーション</dd>
+                  <br>
+                  <dt>開発開始</dt>
+                  <dd>2024.12</dd>
+                  <br>
+                  <dt>担当範囲</dt>
+                  <dd>すべて</dd>
+                </dl>
+                <dl class="col-sm-9">
+                  <br>
+                  <dt>説明</dt>
+                  <dd>技術評論社『プロになるJava』の書籍内の課題「タスク管理ツール」に、ログイン、ソート、過去の日付の登録不可などの設定を自身で追加していったアプリです。</dd>
+                  <br>
+                  <dt>機能</dt>
+                  <dd>ログイン / 課題の追加 / 課題の更新 / 課題の削除 /課題のソート</dd>
+                  <br>
+                  <dt>技術・使用ソフト</dt>
+                  <dd>Java / SpringBoot / html / css / bootstrap / git</dd>
+                  <br>
+                  <dt>URL</dt>
+                  <dd>
+                    <a href="https://tasklist.herokuapp.com/" target="_blank">https://tasklist.herokuapp.com/</a>
+                    <br>
+                    <small>※ゲストとしてログインできます<br>ID：sample<br>パスワード：samplepass</small>
+                  </dd>
+                  <br>
+                  <dt>GitHub</dt>
+                  <dd><a href="https://github.com/rocklain/spring-boot-tasklist" target="_blank">https://github.com/rocklain/spring-boot-tasklist</a></dd>
+                </dl>
+              </div> 
+
+            </div>  
+          </div> 
+
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+          <div class="text-center">
+            <h2>About me</h2>
+            <br>
+            <h4 style="margin-bottom: 10px;">Ryo Ao</h4>
+            <div>JavaとSpringBootを使用したwebアプリの開発に取り組んでいます。モノづくりが大好きです。</div>
+            <br>
+            <dl>
+              <dt>現在学習中の技術</dt>
+              <dd>Java / SpringBoot / html / css / git / SQL / JavaScript</dd>
+              <br>
+              <dt>特技・趣味</dt>
+              <dd>筋トレ / エレキベース / 読書</dd>
+            </dl>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
